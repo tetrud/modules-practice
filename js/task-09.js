@@ -14,7 +14,6 @@ const burgerShack = {
 function composeMessage(customerName) {
   return `${customerName}, всегда рады вас видеть в «${this.company}».`;
 }
-// Пиши код ниже этой строки
 
 const pizzaPalaceComposer = composeMessage.bind(pizzaPalace);
 const pizzaPalaceMessage = pizzaPalaceComposer('Манго');

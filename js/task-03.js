@@ -1,7 +1,7 @@
 // Задание-3
 // Инлайн-колбэки
 
-//Дополни второй вызов функции makePizza(pizzaName, callback), передав вторым аргументом инлайн колбэк-функцию eatPizza(pizzaName), которая логирует строку 'Едим пиццу <имя пиццы>'.
+// Дополни второй вызов функции makePizza(pizzaName, callback), передав вторым аргументом инлайн колбэк-функцию eatPizza(pizzaName), которая логирует строку 'Едим пиццу <имя пиццы>'.
 
 function makePizza(pizzaName, callback) {
   console.log(`Пицца ${pizzaName} готовится, ожидайте...`);
@@ -12,8 +12,6 @@ makePizza('Роял гранд', function deliverPizza(pizzaName) {
   console.log(`Доставляем пиццу ${pizzaName}.`);
 });
 
-makePizza('Ультрасыр', function eatPizza(pizzaName){
-
-console.log(`Едим пиццу ${pizzaName}`)
+makePizza('Ультрасыр', function eatPizza(pizzaName) {
+  console.log(`Едим пиццу ${pizzaName}`);
 });
-
