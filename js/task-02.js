@@ -34,6 +34,6 @@ function checkPassword(password) {
   return 'Доступ запрещен, неверный пароль!';
 }
 
-consile.log(checkPassword('mangohackzor'));
-consile.log(checkPassword('polyhax'));
-consile.log(checkPassword('jqueryismyjam'));
+console.log(checkPassword('mangohackzor'));
+console.log(checkPassword('polyhax'));
+console.log(checkPassword('jqueryismyjam'));

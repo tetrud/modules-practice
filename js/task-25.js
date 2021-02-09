@@ -9,7 +9,7 @@ function getCommonElements(array1, array2) {
   const newArray = [];
 
   for (const arr of array1) {
-    if (arr.includes(array1) === arr.includes(array2)) {
+    if (array1.includes(arr) && array2.includes(arr)) {
       newArray.push(arr);
     }
   }

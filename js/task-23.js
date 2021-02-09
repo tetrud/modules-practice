@@ -4,11 +4,12 @@
 function filterArray(numbers, value) {
   const newNumbers = [];
 
-  for (number of numbers) {
+  for (const number of numbers) {
     if (number > value) {
       newNumbers.push(number);
     }
   }
+
   return newNumbers;
 }
 

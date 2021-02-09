@@ -3,4 +3,4 @@
 
 const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
 
-cosole.log(fruits);
+console.log(fruits);
